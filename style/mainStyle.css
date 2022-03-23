@@ -1,63 +1,116 @@
-img{
+img {
     width: 200px;
     height: 200px;
     margin-left: -5px;
 }
-.skill{
+
+img:hover {
+    margin-left: 25px;
+    animation-name: imgmove;
+    animation-duration: 2s;
+}
+
+.skill {
     display: flex;
     flex-wrap: wrap;
     background-color: rgb(138, 135, 135);
-    border:black solid 2px ;
+    border: black solid 2px;
 }
-h4{
+
+h4 {
     margin-left: 80px;
 }
-.profPic{
+
+.profPic {
     border-radius: 15px;
-    border:black solid 5px;
+    border: black solid 5px;
 }
-.profPic:hover{
+
+.profPic:hover {
     width: 220px;
     height: 220px;
 }
-body{
+
+body {
     background-color: rgb(204, 197, 197);
     animation-name: malekmove;
     animation-duration: 10s;
 }
-@keyframes malekmove{
-    from {left: 0;
-    background-color: rgb(61, 150, 61);
+
+@keyframes malekmove {
+    from {
+        left: 0;
+        background-color: rgb(61, 150, 61);
     }
-    to {left: 25;
-    background-color: rgb(48, 206, 87);
+
+    to {
+        left: 25;
+        background-color: rgb(48, 206, 87);
     }
-    to{left: 50;
-    background-color: rgb(158, 255, 182);
+
+    to {
+        left: 50;
+        background-color: rgb(158, 255, 182);
     }
-    to{
+
+    to {
         left: 75;
-        background-color:rgb(204, 253, 216);
+        background-color: rgb(204, 253, 216);
     }
-    to{left:100;
-    background-color: rgb(204, 197, 197);}
+
+    to {
+        left: 100;
+        background-color: rgb(204, 197, 197);
+    }
 }
-.contactBtn{
-  background-color: black;
-  color: rgb(117, 255, 117);
+
+@keyframes imgmove {
+    from {
+        left: 0;
+        margin-left: 15px;
+    }
+
+    to {
+        left: 25;
+        margin-right: 15px;
+    }
+
+    to {
+        left: 50;
+        margin-left: 15px;
+    }
+
+    to {
+        left: 75;
+        margin-right: 15px;
+    }
+
+    to {
+        left: 100;
+        margin-left: 15px;
+    }
 }
-.contactBtn:hover{
+
+.contactBtn {
+    background-color: black;
+    color: rgb(117, 255, 117);
+}
+
+.contactBtn:hover {
     color: yellow;
     cursor: pointer;
     font-size: larger;
 }
-.top{
+
+.top {
     text-align: center;
 }
-footer{
+
+footer {
     text-align: center;
 }
-.note{
+
+.note {
     margin-top: 100px;
     margin-left: 350px;
 }
