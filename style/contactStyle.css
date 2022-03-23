@@ -1,11 +1,12 @@
-img{
-    width:200px;
-    height:200px;
+img {
+    width: 200px;
+    height: 200px;
     border: black solid 5px;
     border-radius: 15px;
 }
-body{
-    
+
+body {
+
     background-color: rgb(204, 197, 197);
     display: flex;
     align-items: center;
@@ -15,31 +16,49 @@ body{
     animation-name: malekmove;
     animation-duration: 5s;
 }
-@keyframes malekmove{
-    from {left: 0;
-    background-color: rgb(61, 150, 61);
+
+@keyframes malekmove {
+    from {
+        left: 0;
+        background-color: rgb(61, 150, 61);
     }
-    to {left: 25;
-    background-color: rgb(48, 206, 87);
+
+    to {
+        left: 25;
+        background-color: rgb(48, 206, 87);
     }
-    to{left: 50;
-    background-color: rgb(158, 255, 182);
+
+    to {
+        left: 50;
+        background-color: rgb(158, 255, 182);
     }
-    to{
+
+    to {
         left: 75;
-        background-color:rgb(204, 253, 216);
+        background-color: rgb(204, 253, 216);
     }
-    to{left:100;
-    background-color: rgb(204, 197, 197);}
+
+    to {
+        left: 100;
+        background-color: rgb(204, 197, 197);
+    }
 }
-textarea{
+
+textarea {
     width: 500px;
     height: 200px;
     border-radius: 15px;
     color: rgb(117, 255, 117);
     background-color: black;
 }
-footer{
+
+footer {
     position: absolute;
     bottom: 0;
+}
+
+.emailMe:hover {
+    color: yellow;
+    cursor: pointer;
+    font-size: larger;
 }
